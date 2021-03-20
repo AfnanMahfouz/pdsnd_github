@@ -174,7 +174,7 @@ def station_stats(df):
     Returns:
         None.
     """
-
+# caluculation part
     print('\nCalculating The Most Popular Stations and Trip...\n')
     start_time = time.time()
 

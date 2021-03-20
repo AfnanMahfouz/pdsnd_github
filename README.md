@@ -13,3 +13,6 @@ The project is being upload in github using pycharm commands which makes the oth
 
 ### Credits
 I have not used any
+
+### Platform 
+Udacity 
