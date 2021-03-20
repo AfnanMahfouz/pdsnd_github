@@ -76,7 +76,7 @@ def get_filters():
     #Creating a list to store all the days including the 'all' option
     DAY_LIST = ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
     day = ''
-    # a while loop allowing the user to enter a day
+    # a while loop allowing the user to enter a specific day
     while day not in DAY_LIST:
         print("\nPlease enter a day in the week:")
         day = input().lower()
@@ -89,7 +89,7 @@ def get_filters():
     print('-'*80)
     #Returning the city, month and day selections
     return city, month, day
-
+# loading data from .csv files
 #Function to load data from .csv files successfully
 def load_data(city, month, day):
     """
